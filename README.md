@@ -21,3 +21,16 @@ This is highly useful for detecting unauthorized processes (like `powershell.exe
 2. Run the script:
    ```bash
    python netprocess_intel.py
+
+Enter the process name you want to audit (e.g., chrome, powershell, svchost).
+
+📊 Sample Output
+[+] Buscando conexiones e Inteligencia de IPs para: 'powershell'
+
+PID        Proceso                Dirección Remota       País Origen/Destino
+--------------------------------------------------------------------------------
+14320      powershell.exe         185.190.140.5:443      Netherlands
+4312       powershell.exe         127.0.0.1:50311        Red Local (LAN)
+
+⚠️ Disclaimer
+This tool is intended for educational purposes and authorized Blue Teaming/Incident Response activities only.
