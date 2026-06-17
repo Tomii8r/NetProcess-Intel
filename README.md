@@ -33,6 +33,6 @@ PID        Proceso                Dirección Remota       País Origen/Destino
 --------------------------------------------------------------------------------
 14320      powershell.exe         185.190.140.5:443      Netherlands
 4312       powershell.exe         127.0.0.1:50311        Red Local (LAN) 
-
+```
 ⚠️ Disclaimer
 This tool is intended for educational purposes and authorized Blue Teaming/Incident Response activities only.
